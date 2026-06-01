@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover free website monetization strategies - Affiliate marketing, Google AdSense, Sponsored content, Fiverr services, Print-on-demand, Newsletter and more!">
+    <meta name="keywords" content="make money online, free website, monetization, affiliate marketing, AdSense, passive income">
+    <meta name="author" content="MoneyWithNeon">
+    <title>Make Money Free – Neon Edition</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💰</text></svg>">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-grid"></div>
+        <div class="bg-glow bg-glow-1"></div>
+        <div class="bg-glow bg-glow-2"></div>
+        <div class="bg-glow bg-glow-3"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">💰</span>
+                <h1>Money<span class="neon-text">Free</span></h1>
+            </div>
+            <p class="tagline">Turn Your Free Website Into A Cash Machine</p>
+        </div>
+        <div class="header-stats">
+            <div class="stat-item">
+                <span class="stat-value" id="stat-ideas">12</span>
+                <span class="stat-label">Proven Ideas</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">$0</span>
+                <span class="stat-label">Startup Cost</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">100%</span>
+                <span class="stat-label">Free Tools</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">
+                <span class="hero-line">Make Money</span>
+                <span class="hero-line gradient-text">With FREE</span>
+                <span class="hero-line">Websites</span>
+            </h2>
+            <p class="hero-subtitle">Discover 12 battle-tested strategies to monetize your free website. No investment required – just creativity and effort!</p>
+            <div class="hero-cta">
+                <button class="neon-btn primary" id="scroll-cta">
+                    <span>Explore Ideas</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M5 12l7 7 7-7"/>
+                    </svg>
+                </button>
+                <button class="neon-btn secondary" id="random-idea">
+                    <span>🎲</span>
+                    <span>Random Pick</span>
+                </button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-cards">
+                <div class="float-card card-1">
+                    <span class="card-icon">💳</span>
+                    <span class="card-text">Passive Income</span>
+                </div>
+                <div class="float-card card-2">
+                    <span class="card-icon">📈</span>
+                    <span class="card-text">Scale Up</span>
+                </div>
+                <div class="float-card card-3">
+                    <span class="card-icon">🚀</span>
+                    <span class="card-text">Get Started</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Ideas Grid -->
+        <section class="ideas-section" id="ideas-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-number">01</span>
+                    <span class="title-text">Money-Making <span class="gradient-text">Strategies</span></span>
+                </h2>
+                <p class="section-subtitle">Click on any card to learn more about each monetization method</p>
+            </div>
+
+            <div class="ideas-grid" id="ideas-grid">
+                <!-- Cards will be injected by JS -->
+            </div>
+        </section>
+
+        <!-- Featured Strategy Section -->
+        <section class="featured-section" id="featured-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-number">02</span>
+                    <span class="title-text">Quick <span class="gradient-text">Start Guide</span></span>
+                </h2>
+            </div>
+            
+            <div class="featured-cards">
+                <div class="featured-card" data-strategy="1">
+                    <div class="featured-badge">🔥 Most Popular</div>
+                    <div class="featured-icon">🎯</div>
+                    <h3>Start With Affiliate Marketing</h3>
+                    <p>Promote products and earn commissions for every sale made through your unique link.</p>
+                    <ul class="featured-steps">
+                        <li>1️⃣ Choose a niche you love</li>
+                        <li>2️⃣ Join affiliate programs (Amazon, ShareASale)</li>
+                        <li>3️⃣ Create content around products</li>
+                        <li>4️⃣ Add affiliate links naturally</li>
+                    </ul>
+                    <div class="featured-income">Potential: $100 - $10,000+/month</div>
+                    <button class="neon-btn primary learn-more-btn" data-idea="affiliate">
+                        Learn More
+                    </button>
+                </div>
+
+                <div class="featured-card" data-strategy="2">
+                    <div class="featured-badge gradient-badge">⚡ Easiest Setup</div>
+                    <div class="featured-icon">📊</div>
+                    <h3>Google AdSense Integration</h3>
+                    <p>Display targeted ads on your website and earn money when visitors click or view them.</p>
+                    <ul class="featured-steps">
+                        <li>1️⃣ Create quality content</li>
+                        <li>2️⃣ Apply for AdSense account</li>
+                        <li>3️⃣ Place ad code on your site</li>
+                        <li>4️⃣ Optimize for better placement</li>
+                    </ul>
+                    <div class="featured-income">Potential: $10 - $5,000+/month</div>
+                    <button class="neon-btn primary learn-more-btn" data-idea="adsense">
+                        Learn More
+                    </button>
+                </div>
+
+                <div class="featured-card" data-strategy="3">
+                    <div class="featured-badge">💎 High Value</div>
+                    <div class="featured-icon">📧</div>
+                    <h3>Build a Newsletter</h3>
+                    <p>Grow an email list and monetize through sponsored emails and affiliate offers.</p>
+                    <ul class="featured-steps">
+                        <li>1️⃣ Offer a free lead magnet</li>
+                        <li>2️⃣ Use email marketing platform</li>
+                        <li>3️⃣ Create valuable content weekly</li>
+                        <li>4️⃣ Monetize with sponsorships</li>
+                    </ul>
+                    <div class="featured-income">Potential: $50 - $50,000+/month</div>
+                    <button class="neon-btn primary learn-more-btn" data-idea="newsletter">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section class="tools-section" id="tools-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-number">03</span>
+                    <span class="title-text">Free <span class="gradient-text">Money Tools</span></span>
+                </h2>
+                <p class="section-subtitle">Handy calculators and planners to help you on your journey</p>
+            </div>
+
+            <div class="tools-grid">
+                <div class="tool-card-mini" id="income-calculator">
+                    <div class="tool-icon">🧮</div>
+                    <h4>Income Calculator</h4>
+                    <p>Estimate your potential earnings</p>
+                    <div class="tool-preview">
+                        <label for="calc-visitors" class="sr-only">Monthly visitors</label>
+                        <input type="number" id="calc-visitors" placeholder="Monthly visitors" class="mini-input">
+                        <label for="calc-method" class="sr-only">Monetization method</label>
+                        <select id="calc-method" class="mini-select">
+                            <option value="adsense">AdSense</option>
+                            <option value="affiliate">Affiliate</option>
+                            <option value="newsletter">Newsletter</option>
+                            <option value="services">Fiverr Services</option>
+                        </select>
+                        <button class="mini-btn" id="calculate-income">Calculate</button>
+                    </div>
+                    <div class="tool-result" id="income-result"></div>
+                </div>
+
+                <div class="tool-card-mini" id="niche-finder">
+                    <div class="tool-icon">🔍</div>
+                    <h4>Niche Finder</h4>
+                    <p>Find profitable niches for your site</p>
+                    <div class="tool-preview">
+                        <label for="interest-input" class="sr-only">Your interest or skill</label>
+                        <input type="text" id="interest-input" placeholder="Your interest or skill" class="mini-input">
+                        <button class="mini-btn" id="find-niche">Find Ideas</button>
+                    </div>
+                    <div class="niche-results" id="niche-results"></div>
+                </div>
+
+                <div class="tool-card-mini" id="content-ideas">
+                    <div class="tool-icon">💡</div>
+                    <h4>Content Ideas</h4>
+                    <p>Generate content topics for clicks</p>
+                    <div class="tool-preview">
+                        <select id="content-category" class="mini-select">
+                            <option value="tech">Technology</option>
+                            <option value="finance">Finance & Money</option>
+                            <option value="lifestyle">Lifestyle</option>
+                            <option value="business">Business</option>
+                            <option value="health">Health & Fitness</option>
+                        </select>
+                        <button class="mini-btn" id="generate-ideas">Generate Ideas</button>
+                    </div>
+                    <div class="idea-list" id="idea-list"></div>
+                </div>
+
+                <div class="tool-card-mini" id="link-checker">
+                    <div class="tool-icon">🔗</div>
+                    <h4>Affiliate Link Finder</h4>
+                    <p>Discover programs for your niche</p>
+                    <div class="tool-preview">
+                        <label for="niche-link" class="sr-only">Your niche</label>
+                        <input type="text" id="niche-link" placeholder="Your niche" class="mini-input">
+                        <button class="mini-btn" id="find-links">Find Programs</button>
+                    </div>
+                    <div class="link-results" id="link-results"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section class="roadmap-section" id="roadmap-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-number">04</span>
+                    <span class="title-text">Your <span class="gradient-text">Money Roadmap</span></span>
+                </h2>
+            </div>
+
+            <div class="roadmap">
+                <div class="roadmap-item">
+                    <div class="roadmap-marker">1</div>
+                    <div class="roadmap-content">
+                        <h3>Week 1-2: Foundation</h3>
+                        <p>Pick your niche, set up your free website, and create 5-10 quality pieces of content</p>
+                        <div class="roadmap-tags">
+                            <span class="tag">Niche Selection</span>
+                            <span class="tag">Website Setup</span>
+                            <span class="tag">Content Creation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-marker">2</div>
+                    <div class="roadmap-content">
+                        <h3>Week 3-4: Growth</h3>
+                        <p>Implement SEO, build backlinks, and start promoting your content on social media</p>
+                        <div class="roadmap-tags">
+                            <span class="tag">SEO Basics</span>
+                            <span class="tag">Social Media</span>
+                            <span class="tag">Backlinks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-marker">3</div>
+                    <div class="roadmap-content">
+                        <h3>Month 2: Monetization</h3>
+                        <p>Apply for affiliate programs, set up AdSense, and start building your email list</p>
+                        <div class="roadmap-tags">
+                            <span class="tag">Affiliate Programs</span>
+                            <span class="tag">AdSense</span>
+                            <span class="tag">Email List</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-marker">4</div>
+                    <div class="roadmap-content">
+                        <h3>Month 3+: Scale Up</h3>
+                        <p>Scale successful monetization methods, explore new income streams, and reinvest profits</p>
+                        <div class="roadmap-tags">
+                            <span class="tag">Scale Winners</span>
+                            <span class="tag">New Streams</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Idea Details -->
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-header">
+                <span class="modal-icon" id="modal-icon">💰</span>
+                <h2 id="modal-title">Idea Title</h2>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Content injected by JS -->
+            </div>
+            <div class="modal-footer">
+                <div class="modal-income" id="modal-income">Potential: $XXX/month</div>
+                <div class="modal-difficulty" id="modal-difficulty">Difficulty: ⭐⭐⭐</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast" role="status" aria-live="polite">
+        <span class="toast-icon">✨</span>
+        <span class="toast-message" id="toast-message"></span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-icon">💰</span>
+                <span>Money<span class="neon-text">Free</span></span>
+            </div>
+            <p class="footer-text">Turn your free website into a money-making machine. Start today, pay nothing!</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">About</a>
+                <a href="#" class="footer-link">Contact</a>
+                <a href="#" class="footer-link">Privacy</a>
+            </div>
+            <p class="footer-copy">© 2026 MoneyFree. All ideas are 100% free to start! 🚀</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
