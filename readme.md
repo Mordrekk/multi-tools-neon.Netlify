@@ -25,6 +25,20 @@ A stunning, neon-styled multi-tool web application built with pure HTML, CSS, an
 
 Simply open `index.html` in any modern browser - no build step required!
 
+## ☁️ Deploy to Cloudflare Pages (Recommended)
+
+1. Push this project to a GitHub/GitLab repository
+2. Go to [Cloudflare Pages](https://dash.cloudflare.com/) → Workers & Pages → Create → Pages
+3. Connect your repository and configure:
+   - **Build command:** (leave empty)
+   - **Build output directory:** `/`
+4. Click "Save and Deploy" — your site will be live in seconds!
+
+**Included optimizations:**
+- `_headers` — Security headers and long-lived caching for CSS/JS assets
+- `_redirects` — Ready for custom redirect rules when needed
+- `404.html` — Custom neon-themed error page
+
 ## ☁️ Deploy to Netlify
 
 1. Drag and drop the project folder to [Netlify Drop](https://app.netlify.com/drop)
@@ -45,7 +59,9 @@ multitools-neon/
 ├── index.html      # Main HTML file
 ├── styles.css      # All styles (neon theme)
 ├── script.js       # All tool functionalities
-├── assets/         # SVG icons
+├── 404.html        # Custom 404 error page
+├── _headers        # Cloudflare Pages caching & security headers
+├── _redirects      # Cloudflare Pages URL redirects
 └── README.md       # This file
 ```
 

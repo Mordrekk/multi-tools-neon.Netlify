@@ -1,0 +1,20 @@
+# Cloudflare Pages - Custom Headers
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+# HTML - short cache (content may change)
+/index.html
+  Cache-Control: public, max-age=3600
+
+# CSS & JS - long cache (fingerprint these for cache busting on changes)
+/styles.css
+  Cache-Control: public, max-age=31536000
+
+/script.js
+  Cache-Control: public, max-age=31536000
+
+# Security headers for all pages
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer-when-downgrade
+  Permissions-Policy: camera=(), microphone=(), geolocation=()

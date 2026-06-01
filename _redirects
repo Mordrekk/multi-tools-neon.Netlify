@@ -1,0 +1,8 @@
+# Cloudflare Pages - Redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Add redirect rules here, one per line:
+#   /old-page  /new-page  301
+#   /blog/*    /posts/:splat  301
+#
+# Note: 404.html will automatically serve for unmatched routes.
